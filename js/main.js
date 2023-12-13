@@ -81,7 +81,6 @@ function speechTxt(idx) {
 }
 
 function copyTxt(idx) {
-  console.log(idx);
   navigator.clipboard.writeText(quotes[idx].quote);
   alert("Quote Copied To Your Clipboard");
 }
