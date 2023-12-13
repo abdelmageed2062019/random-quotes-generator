@@ -50,7 +50,7 @@ function getQuote() {
   var soundBtn = document.createElement("button");
   var copyBtn = document.createElement("button");
 
-  newQuote.innerHTML = quotes[randomIdx].quote;
+  newQuote.innerHTML = `"${quotes[randomIdx].quote}"`;
   newAuthor.innerHTML = "- " + quotes[randomIdx].author;
 
   soundBtn.id = "sound";
